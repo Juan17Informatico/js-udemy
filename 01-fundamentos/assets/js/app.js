@@ -4,7 +4,7 @@
 // console.log('hola mundo');
 
 let a = 0, 
-    b = "asd",
+    b = "asss",
     c = 30,
     d = "30treinta";
 
