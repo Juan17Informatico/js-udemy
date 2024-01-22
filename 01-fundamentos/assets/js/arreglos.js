@@ -16,7 +16,7 @@ let arregloCosas = [
     function(){},
     ()=>{},
     { a: 1},
-    ['X', 'Megaman','Zero', 'Dr Light', [
+    ['X', 'Megaman','Zero', 'Dr Lighst', [
         'Megamente',
         'Dios'
     ]]
