@@ -25,3 +25,4 @@ let arregloCosas = [
 // console.log( {arregloCosas} );
 // console.log( arregloCosas[2] );
 // console.log( arregloCosas[7][4][1] );
+// asdsadsad
