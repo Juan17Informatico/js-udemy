@@ -1,7 +1,7 @@
 
 
 // const arr = [];
-// console.log(arr);
+// console.log(arr);sadsadsadsadsad
 
 let videoJuegos = ['Mario 3', 'Mega man', 'Chrono Trigger'];
 console.log({ videoJuegos });
