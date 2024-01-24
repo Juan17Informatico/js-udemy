@@ -53,7 +53,7 @@ const pedirCarta = () => {
 
     const carta = deck.pop();;
 
-    console.log({ carta });
+    // console.log({ carta });
 
     return carta;
 
@@ -91,7 +91,7 @@ const turnoComputadora = (puntosMinimos) => {
             break;
         }
 
-    } while ((puntosComputadora <= puntosMinimos) && (puntosMinimos <= 21));
+    } while ((puntosComputadora < puntosMinimos) && (puntosMinimos <= 21));
 
     setTimeout(() => {
 
@@ -106,7 +106,7 @@ const turnoComputadora = (puntosMinimos) => {
             alert('Computadora gana');
         }
 
-    }, 10);
+    }, 100);
 
 }
 
@@ -162,8 +162,8 @@ btnNuevoJuego.addEventListener('click', () => {
     puntosJugador = 0;
     puntosComputadora = 0;
 
-    puntosHTML[0] = 0;
-    puntosHTML[1] = 0;
+    puntosHTML[0].innerHTML = 0;
+    puntosHTML[1].innerHTML = 0;
     imgCartas.src = "";
     divCartasComputadora.innerHTML = '';
     divCartasJugador.innerHTML = '';
