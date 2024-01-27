@@ -6,7 +6,7 @@ import _  from "underscore";
  * @param {Array<string>} tiposEspeciales Ejemplo: ['A','J','Q','K']
  * @returns {Array} retorna un nuevo deck de cartas
  */
-const crearDeck = (tiposDeCarta, tiposEspeciales) => {
+export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
     if(!tiposDeCarta || tiposDeCarta.length === 0) throw new Error('tipoDeCarta es obligatorio');
 
@@ -28,5 +28,3 @@ const crearDeck = (tiposDeCarta, tiposEspeciales) => {
  
     return deck;
 }
-
-export default crearDeck;
